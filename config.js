@@ -1,48 +1,122 @@
+//=============『 Utama 』================== //
+global.owner = ['6285738639969','6287789210430','6287892711054'] 
+global.mods = [] 
+global.prems = [] 
+
+//=============『 Info Owner 』============== //
+global.nameowner = 'Chonix'
+global.numberowner = '84585961987'
+global.instagram = 'https://instagram.com/ktgakuma?igshid=YmMyMTA2M2Y='
+global.github = 'https://github.com/cheinope'
+global.dana = '085738639969'
+global.pulsa = '085738639969'
+global.gopay = '-'
+
+//=============『 Info Bot 』=================//
+global.namebot = '𝐂𝐡𝐨𝐧𝐢𝐱-𝐁𝐎𝐓'
+global.gc = 'https://chat.whatsapp.com/JZcR7E5hOlE7dYbPiQhUtU'
+global.web = 'tiktok.com/@chonixb' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
+global.price1 = '1 bulan = 10.000\n2 Minggu 7.000\n1 Minggu 5.000'
+
+//=======『 Tampilan Dan Lainnya 』============//
+global.fotonya1 = 'https://telegra.ph/file/e4a2f4339da8a32ad20a1.jpg' //ganti jadi foto bot mu
+global.fotonya2 = 'https://telegra.ph/file/8c471d45b6cedad43cf84.jpg' //ini juga ganti 
+global.lolkey = 'Papah-Chan' //biar mudah ngegantinya semisal apikeynya expired:v
+global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
+global.wm = '𝐂𝐡𝐨𝐧𝐢𝐱-𝐁𝐎𝐓'
+global.watermark = wm
+global.wm2 = '                     「 𝐂𝐡𝐨𝐧𝐢𝐱-𝐁𝐎𝐓 」'
+global.wm3 = 'Chonix'
+global.htki = '––––––『' 
+global.htka = '』––––––'
+global.media = 'https://telegra.ph/file/72168c6f1aaa90315c369.jpg'
+global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=smurfs-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
+global.wait = '```「▰▰▰▱▱▱▱▱▱▱」Loading...```'
+global.eror = '_*Server Error*_'
+global.benar = 'Benar ✅\n'
+global.salah = 'Salah ❌\n'
+global.stiker_wait = 'Stiker sedang dibuat'
+global.packname = '2022'
+global.author = '𝐂𝐡𝐨𝐧𝐢𝐱-𝐁𝐎𝐓 ⫹⫺'
+
+//=============『 Apikey 』================== //
+global.APIs = { // API Prefix
+  // name: 'https://website'
+  amel: 'https://melcanz.com',
+    bx: 'https://bx-hunter.herokuapp.com',
+  dhnjing: 'https://dhnjing.xyz',
+  hardianto: 'https://hardianto-chan.herokuapp.com',
+  jonaz: 'https://jonaz-api-v2.herokuapp.com',
+  neoxr: 'https://neoxr-api.herokuapp.com',
+  nrtm: 'https://nurutomo.herokuapp.com',
+  xteam: 'https://api.xteam.xyz',
+  nzcha: 'http://nzcha-apii.herokuapp.com',
+  bg: 'http://bochil.ddns.net',
+  fdci: 'https://api.fdci.se',
+  dzx: 'https://api.dhamzxploit.my.id',
+  bsbt: 'https://bsbt-api-rest.herokuapp.com',
+  zahir: 'https://zahirr-web.herokuapp.com',
+  zeks: 'https://api.zeks.xyz',
+  zekais: 'http://zekais-api.herokuapp.com',
+  hardianto: 'https://hardianto-chan.herokuapp.com',
+  pencarikode: 'https://pencarikode.xyz', 
+  erdwepe: 'https://erdwpe-api.herokuapp.com',
+  lolhuman: 'https://api.lolhuman.xyz',
+  LeysCoder: 'https://leyscoders-api.herokuapp.com',
+  rey: 'https://server-api-rey.herokuapp.com'
+}
+global.APIKeys = { // APIKey Here
+  // 'https://website': 'apikey'
+  'https://melcanz.com': 'elaina',
+  'https://server-api-rey.herokuapp.com': 'apirey',
+  'https://api.xteam.xyz': 'd37372311698ed1d',
+  'https://zahirr-web.herokuapp.com': 'zahirgans',
+  'https://bsbt-api-rest.herokuapp.com': 'benniismael',
+  'https://api.zeks.xyz': 'apivinz',
+  'https://hardianto-chan.herokuapp.com': 'hardianto',
+  'https://pencarikode.xyz': 'pais', 
+  'https://leyscoders-api.herokuapp.com': 'dappakntlll',
+  'https://zekais-api.herokuapp.com': 'apikeymu',
+  'https://api.lolhuman.xyz': 'Deffbotz',
+}
+
+//=============『 RPG GAMES 』================== //
+global.multiplier = 69 // The higher, The harder levelup
+global.rpg = {
+  emoticon(string) {
+    string = string.toLowerCase()
+    let emot = {
+      exp: '✉️',
+      money: '💵',
+      potion: '🥤',
+      diamond: '💎',
+      common: '📦',
+      uncommon: '🎁',
+      mythic: '🗳️',
+      legendary: '🗃️',
+      pet: '🎁',
+      sampah: '🗑',
+      armor: '🥼',
+      sword: '⚔️',
+      kayu: '🪵',
+      batu: '🪨',
+      string: '🕸️',
+      kuda: '🐎',
+      kucing: '🐈' ,
+      anjing: '🐕',
+      petFood: '🍖',
+      gold: '👑',
+      emerald: '💚'
+    }
+    let results = Object.keys(emot).map(v => [v, new RegExp(v, 'gi')]).filter(v => v[1].test(string))
+    if (!results.length) return ''
+    else return emot[results[0][0]]
+  }
+}
+
+//===========『 Jangan Di Ubah 』================ //
 let fs = require('fs')
 let chalk = require('chalk')
-
-global.owner = ['6283128734012', '6287755080455'] // Letakan nomor kamu disini
-
-global.APIs = { // API Prefix
-  // nama: 'https://website'
-  amel: 'https://melcanz.com',
-  bx: 'https://bx-hunter.herokuapp.com',
-  rey: 'https://api.reysekha.my.id',
-  dhnjing: 'https://dhnjing.xyz',
-  hardianto: 'https://hardianto.xyz',
-  neoxr: 'https://api.neoxr.eu.org',
-  nrtm: 'https://nurutomo.herokuapp.com',
-  pencarikode: 'https://api.chipa.xyz',
-  waifupics: 'https://api.waifu.pics',
-  xteam: 'https://api.xteam.xyz',
-  zeks: 'https://api.zeks.me',
-}
-global.APIKeys = { // APIKey nya disini
-  // 'https://website': 'apikey'
-  'https://melcanz.com': 'trial',
-  'https://api.reysekha.my.id': 'apirey',
-  'https://bx-hunter.herokuapp.com': 'Ikyy69',
-  'https://hardianto.xyz': 'hardianto',
-  'https://api.neoxr.eu.org': 'yntkts',
-  'https://api.chipa.xyz': 'pais',
-  'https://api.xteam.xyz': 'apikeymu',
-  'https://api.zeks.me': 'apivinz',
-}
-
-// Sticker WM
-global.packname = 'arif️fb'
-global.author = 'amel'
-
-global.wm = '© ariffb & melcanz'
-global.wait = '_*tunggu sedang diproses...*_'
-global.eror = '_*Server Error*_'
-global.benar = '✅'
-global.salah = '❌'
-global.dikit = 'dikit lagi'
-global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor3Color=%23f2aa4c&fillColor4Color=%23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color=%23f2aa4c&backgroundColor=%23101820&text='
-
-global.multiplier = 69 // Semakin tinggi, semakin sulit naik level
-
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
   fs.unwatchFile(file)
